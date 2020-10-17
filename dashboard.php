@@ -1,4 +1,4 @@
-<script>
+<script>  //script started
     function copyit(){
         var id = 'cpfinalurl';
         var el = document.getElementById(id);
@@ -11,9 +11,9 @@
         $('#clp').toggleClass('mt-3 mx-auto w-64 hover');
         return false;
     }
-</script>
+</script>  //script ended
 <body classname="antialiased leading-tight bg-gray-200">
-	<noscript>You need to enable JavaScript to run this app.</noscript>
+	<noscript>You need to enable javascript to run this app.</noscript>
 	<div class="bg-gray-200" id="root">
 		<div class="text-center bg-gray-200 h-full">
 			<div class="justify-center text-white flex bg-red-600">
@@ -123,7 +123,7 @@ if ($result->num_rows > 0) {
 						</div>
 				</div>
 			</div>
-			<div class="mt-2 text-md p-3">© 2019 - <?php echo $domain;?> - Love Calculator
+			<div class="mt-2 text-md p-3">Â© 2019 - <?php echo $domain;?> - Love Calculator
 				<div class="mt-2 text-md flex justify-center p-2"><a href="/" class="px-2 border-r-2">HomePage</a><a href="/terms.html" class="px-2">Terms of Use</a>
 				</div>
 			</div>
